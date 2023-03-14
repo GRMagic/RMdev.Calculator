@@ -9,14 +9,14 @@ namespace RMdev.Calculator.Compiler
     sealed class Lexicon
     {
         private int _position = 0;
-
+        
         private string _input;
-        public string Input
+        public string Input 
         {
             get => _input;
-            set
-            {
-                _input = value;
+            set 
+            { 
+                _input = value; 
                 _position = 0;
             }
         }
@@ -74,7 +74,7 @@ namespace RMdev.Calculator.Compiler
                     }
                 }
             }
-            if (endState < 0 || endState != state && TokenForState(lastState) == -2)
+            if (endState < 0 || (endState != state && TokenForState(lastState) == -2))
                 throw new LexicalError(SCANNER_ERROR[lastState], start);
 
 
