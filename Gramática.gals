@@ -1,0 +1,63 @@
+#Options
+GenerateScanner = true
+GenerateParser = true
+Language = C#
+ScannerName = Lexicon
+ParserName = Syntactic
+SemanticName = Semantic
+Package = RMdev.Calculator.Compiler
+ScannerCaseSensitive = true
+ScannerTable = FULL
+Input = STRING
+Parser = SLR
+#RegularDefinitions
+ignorar: [\ \s\n\r\t]+
+numero: [0-9]+(\.[0-9]+)?
+#Tokens
+: {ignorar}
+
+: /\*([^\*]|[\r\n]|(\*+([^\*/]|[\r\n])))*\*+/
+: /[/][^\n]*
+
+NUMERO: {numero}
+
+"+"
+"-"
+
+"*"
+"/"
+"%"
+
+"^"
+
+"("
+")"
+
+","
+
+ID: [_$a-zA-Z][_$a-zA-Z0-9]*
+
+RAIZ = ID: "Raiz"
+ABS = ID: "Abs"
+MEDIA = ID: "Media"
+SOMA = ID: "Soma"
+
+#NonTerminals
+
+#Grammar
+<EXP> ::= <EXP> "+" <E1> #10 | <EXP> "-" <E1> #11 | <E1>;
+<E1> ::= <E1> "/" <E2> #12 | <E1> "*" <E2> #13 | <E1> "%" <E2> #14 | <E2>;
+<E2> ::= <E2> "^" <E3> #15 | <E3>;
+<E3> ::= "-" <E4> #16 | <E4>;
+<E4> ::= <VALOR> | "(" <EXP> ")" | <FUNC>;
+<VALOR> ::= ID #1 | <CONST> ;
+<CONST> ::= NUMERO #0;
+
+<FUNC> ::= RAIZ "(" <EXP> "," <EXP> ")" #17;
+<FUNC> ::= RAIZ "(" <EXP> ")" #18;
+<FUNC> ::= ABS "(" <EXP> ")" #19;
+<FUNC> ::= MEDIA "(" #3 <PN> ")" #20;
+<FUNC> ::= SOMA "(" #3 <PN> ")" #21;
+
+<PN> ::= <PN> "," <EXP> #4;
+<PN> ::= <EXP> #4;
