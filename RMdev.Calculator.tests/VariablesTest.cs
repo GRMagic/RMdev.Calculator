@@ -69,7 +69,7 @@ namespace RMdev.Calculator.Tests
         [InlineData("aS")]
         [InlineData("_As1")]
         [InlineData("$1")]
-        public void ValidNameVariable_Solve_Correctly(string variableName)
+        public void ValidVariableName_Solve_Correctly(string variableName)
         {
             // Arrange
             var calc = new Calc();
@@ -82,6 +82,36 @@ namespace RMdev.Calculator.Tests
 
             // Assert
             Assert.Equal(value, result);
+        }
+
+        [Trait("Variables", "Consts")]
+        [Theory(DisplayName = "Const values")]
+        [InlineData("PI")]
+        [InlineData("E")]
+        public void ConstName_Solve_Correctly(string variableName)
+        {
+            // Arrange
+            var calc = new Calc();
+            var expression = variableName;
+
+            // Act and Assert
+            calc.Solve(expression);
+        }
+
+        [Trait("Variables", "Names")]
+        [Theory(DisplayName = "Reserved Name")]
+        [InlineData("PI")]
+        [InlineData("E")]
+        public void ReservedName_SetVariable_ThrowsException(string variableName)
+        {
+            // Arrange
+            var calc = new Calc();
+
+            // Act 
+            Action act = () => calc.SetVariable(variableName ,0);
+
+            // Assert
+            Assert.Throws<ArgumentException>(act);
         }
     }
 }

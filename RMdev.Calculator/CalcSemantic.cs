@@ -37,7 +37,7 @@ namespace RMdev.Calculator
         public void SetVariable(string name, decimal value)
         {
             if (_reserved.Contains(name))
-                throw new SemanticError($"A palavra '{name}' é uma palavra reservada.");
+                throw new ArgumentException($"A palavra '{name}' é uma palavra reservada.");
             _variables[name] = value;
         }
 

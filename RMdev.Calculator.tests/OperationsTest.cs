@@ -154,6 +154,21 @@ namespace RMdev.Calculator.Tests
             Assert.Equal(expected, result);
         }
 
+        [Trait("Operations", "Pow")]
+        [Fact(DisplayName = "Pow NaN")]
+        public void NaNValuePow_Solve_ThrowsException()
+        {
+            // Arrange
+            var calc = new Calc();
+            var expression = "-27^(1/2)";
+
+            // Act
+            Action act = () => calc.Solve(expression);
+
+            // Assert
+            Assert.Throws<ArgumentException>(act);
+        }
+
         [Trait("Operations", "Neg")]
         [Theory(DisplayName = "Neg")]
         [InlineData("-1", -1)]

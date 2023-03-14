@@ -20,6 +20,21 @@
             Assert.Equal(expected, result);
         }
 
+        [Trait("Functions", "Root")]
+        [Fact(DisplayName = "Root NaN")]
+        public void NaNValueRoot_Solve_ThrowsException()
+        {
+            // Arrange
+            var calc = new Calc();
+            var expression = "Raiz(-9,2)";
+
+            // Act
+            Action act = () => calc.Solve(expression);
+
+            // Assert
+            Assert.Throws<ArgumentException>(act);
+        }
+
         [Trait("Functions", "Sqrt")]
         [Theory(DisplayName = "Sqrt")]
         [InlineData("Raiz(9)", 3)]
@@ -36,7 +51,7 @@
         }
 
         [Trait("Functions", "Sqrt")]
-        [Fact(DisplayName = "Sqrt(-)")]
+        [Fact(DisplayName = "Sqrt NaN")]
         public void NaNValueSqrt_Solve_ThrowsException()
         {
             // Arrange
