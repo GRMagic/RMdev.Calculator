@@ -41,10 +41,10 @@ namespace RMdev.Calculator
             _variables[name] = value;
         }
 
-        public List<string> RequiredVariables(string expression)
+        public IEnumerable<string> RequiredVariables(string expression)
         {
             Lexicon lexicon = new Lexicon(expression);
-            var variables = new List<string>();
+            var variables = new HashSet<string>();
 
             var token = lexicon.NextToken();
             while (token != null)

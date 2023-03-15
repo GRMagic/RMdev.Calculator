@@ -6,7 +6,7 @@ namespace RMdev.Calculator
     {
         void Check(string expression, bool checkSemantic = false);
         decimal Solve(string expression);
-        List<string> RequiredVariables(string expression);
+        IEnumerable<string> RequiredVariables(string expression);
         void SetVariable(string name, decimal value);
     }
 }

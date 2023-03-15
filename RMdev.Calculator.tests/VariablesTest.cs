@@ -134,5 +134,21 @@ namespace RMdev.Calculator.Tests
             // Assert
             Assert.Throws<ArgumentException>(act);
         }
+
+        [Trait("Variables", "Multiple")]
+        [Fact(DisplayName = "Multiple Variables")]
+        public void MultipleVariable_ListRequiredVariables_Correctly()
+        {
+            // Arrange
+            var calc = new Calc();
+            var expression = "a + a + b + c + c + b";
+            var expected = new[] { "a", "b", "c" };
+
+            // Act
+            var result = calc.RequiredVariables(expression);
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
     }
 }

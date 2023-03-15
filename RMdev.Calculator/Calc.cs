@@ -37,7 +37,7 @@ namespace RMdev.Calculator
             syntatic.Parse(lexicon, semantic);
         }
 
-        public List<string> RequiredVariables(string expression) => _semantic.RequiredVariables(expression);
+        public IEnumerable<string> RequiredVariables(string expression) => _semantic.RequiredVariables(expression);
 
         public void SetVariable(string name, decimal value) => _semantic.SetVariable(name, value);
 
