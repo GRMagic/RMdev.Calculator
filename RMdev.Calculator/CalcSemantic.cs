@@ -15,7 +15,7 @@ namespace RMdev.Calculator
 
         private readonly decimal PI = Convert.ToDecimal(Math.PI);
         private readonly decimal E = Convert.ToDecimal(Math.E);
-        private readonly string[] _reserved = new[] { nameof(PI), nameof(E) };
+        private readonly string[] _reserved = new[] { nameof(PI), nameof(E), "Soma", "Media", "Raiz", "Abs" };
 
         public CalcSemantic()
         {

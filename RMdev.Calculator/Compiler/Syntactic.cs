@@ -69,6 +69,8 @@ namespace RMdev.Calculator.Compiler
                     return true;
 
                 case ERROR:
+                    if (_currentToken.Id == EPSILON) throw new SyntaticError($"Não é esperado um lexema vazio aqui.", _currentToken.Position);
+                    if (_currentToken.Id == DOLLAR) throw new SyntaticError($"O fim da expressão não era esperado.", _currentToken.Position);
                     throw new SyntaticError($"O lexema '{_currentToken.Lexeme}' não era esperado aqui.", _currentToken.Position);
             }
             return false;

@@ -11,7 +11,7 @@ namespace RMdev.Calculator
 
         public override void ExecuteAction(int action, Token token)
         {
-            if (action == 0 || action == 1)
+            if (action == 1)
             {
                 if (!_variables.Contains(token.Lexeme))
                 {

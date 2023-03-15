@@ -57,6 +57,23 @@ namespace RMdev.Calculator.Tests
             Assert.Equal(expression.IndexOf(variableName), exeption.Position);
         }
 
+        [Trait("Variables", "Not Defined")]
+        [Fact(DisplayName = "Check variable not defined")]
+        public void NotDefinedVariable_CheckSemantic_ThrowsException()
+        {
+            // Arrange
+            var calc = new Calc();
+            var variableName = "a";
+            var expression = $"1 + {variableName} * 2";
+
+            // Act
+            Action act = () => calc.Check(expression, true);
+
+            // Assert
+            var exeption = Assert.Throws<SemanticError>(act);
+            Assert.Equal(expression.IndexOf(variableName), exeption.Position);
+        }
+
         [Trait("Variables", "Names")]
         [Theory(DisplayName = "Variable not defined")]
         [InlineData("_")]
@@ -102,6 +119,10 @@ namespace RMdev.Calculator.Tests
         [Theory(DisplayName = "Reserved Name")]
         [InlineData("PI")]
         [InlineData("E")]
+        [InlineData("Soma")]
+        [InlineData("Media")]
+        [InlineData("Raiz")]
+        [InlineData("Abs")]
         public void ReservedName_SetVariable_ThrowsException(string variableName)
         {
             // Arrange
