@@ -1,4 +1,5 @@
 ﻿using RMdev.Calculator.Compiler;
+using RMdev.Calculator.Resources;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -11,13 +12,8 @@ namespace RMdev.Calculator
 
         public override void ExecuteAction(int action, Token token)
         {
-            if (action == 1)
-            {
-                if (!_variables.Contains(token.Lexeme))
-                {
-                    throw new SemanticError($"A variável '{token.Lexeme}' não foi definida.", token.Position);
-                }
-            }
+            if (action == 1 && !_variables.Contains(token.Lexeme))
+                throw new SemanticError(string.Format(Messages.UndefinedVariable, token.Lexeme), token.Position);
         }
     }
 }

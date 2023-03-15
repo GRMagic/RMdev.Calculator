@@ -1,3 +1,5 @@
+using RMdev.Calculator.Resources;
+
 namespace RMdev.Calculator.Compiler
 {
     public static class ScannerConstants
@@ -389,7 +391,7 @@ namespace RMdev.Calculator.Compiler
 
         public static readonly string[] SCANNER_ERROR =
         {
-            "Caractere não esperado",
+            Messages.UnexpectedCharacter,
             "",
             "",
             "",
@@ -402,10 +404,10 @@ namespace RMdev.Calculator.Compiler
             "",
             "",
             "",
-            "Erro identificando <ignorar>",
+            string.Format(Messages.ErrorIdentifying,"<ignorar>"),
             "",
-            "Erro identificando NUMERO",
-            "Erro identificando <ignorar>",
+            string.Format(Messages.ErrorIdentifying,"NUMERO"),
+            string.Format(Messages.ErrorIdentifying,"<ignorar>"),
             "",
             ""
         };

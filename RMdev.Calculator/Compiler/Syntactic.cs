@@ -1,3 +1,4 @@
+using RMdev.Calculator.Resources;
 using System.Collections;
 using static RMdev.Calculator.Compiler.Constants;
 using static RMdev.Calculator.Compiler.ParserConstants;
@@ -69,9 +70,9 @@ namespace RMdev.Calculator.Compiler
                     return true;
 
                 case ERROR:
-                    if (_currentToken.Id == EPSILON) throw new SyntaticError($"Não é esperado um lexema vazio aqui.", _currentToken.Position);
-                    if (_currentToken.Id == DOLLAR) throw new SyntaticError($"O fim da expressão não era esperado.", _currentToken.Position);
-                    throw new SyntaticError($"O lexema '{_currentToken.Lexeme}' não era esperado aqui.", _currentToken.Position);
+                    if (_currentToken.Id == EPSILON) throw new SyntaticError(Messages.UnexpectedEmptyLexeme, _currentToken.Position);
+                    if (_currentToken.Id == DOLLAR) throw new SyntaticError(Messages.UnexpectedFinalLexeme, _currentToken.Position);
+                    throw new SyntaticError(string.Format(Messages.UnexpectedLexeme, _currentToken.Lexeme), _currentToken.Position);
             }
             return false;
         }

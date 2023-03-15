@@ -2,7 +2,11 @@
 using RMdev.Calculator;
 using RMdev.Calculator.Compiler;
 using System.Diagnostics;
+using System.Globalization;
 using static System.Console;
+
+//Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+//new Calc().SetVariable("E",0);
 
 var calc = new Calc();
 var stopWatch = Stopwatch.StartNew();

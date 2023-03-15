@@ -1,4 +1,5 @@
 ﻿using RMdev.Calculator.Compiler;
+using RMdev.Calculator.Resources;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,18 @@ namespace RMdev.Calculator
 
         private readonly decimal PI = Convert.ToDecimal(Math.PI);
         private readonly decimal E = Convert.ToDecimal(Math.E);
-        private readonly string[] _reserved = new[] { nameof(PI), nameof(E), "Soma", "Media", "Raiz", "Abs" };
+        private readonly string[] _reserved = new[] 
+        {
+            nameof(PI),
+            nameof(E) 
+            // TODO: Arredondar
+            // TODO: TRUNCAR
+            // TODO: Arredondar para cima
+            // TODO: Arredondar para baixo
+            // TODO: Seno
+            // TODO: Coseno
+            // TODO: Tangente
+        }.Concat(ScannerConstants.SPECIAL_CASES_KEYS).ToArray();
 
         public CalcSemantic()
         {
@@ -37,7 +49,7 @@ namespace RMdev.Calculator
         public void SetVariable(string name, decimal value)
         {
             if (_reserved.Contains(name))
-                throw new ArgumentException($"A palavra '{name}' é uma palavra reservada.");
+                throw new ArgumentException(string.Format(Messages.ReservedWord, name));
             _variables[name] = value;
         }
 
@@ -127,7 +139,7 @@ namespace RMdev.Calculator
         private void Variable(Token token)
         {
             if (!_variables.ContainsKey(token.Lexeme))
-                throw new SemanticError($"A variável '{token.Lexeme}' não foi definida.", token.Position);
+                throw new SemanticError(string.Format(Messages.UndefinedVariable, token.Lexeme), token.Position);
 
             _stack.Push(_variables[token.Lexeme]);
         }
@@ -183,7 +195,8 @@ namespace RMdev.Calculator
             var a = Convert.ToDouble(_stack.Pop());
             var result = Math.Pow(a, b);
             if (double.IsNaN(result))
-                throw new ArgumentException($"Não existe {a} elevado a {b}.");
+                throw new ArgumentException(string.Format(Messages.PowNaN, a, b));
+            
             _stack.Push(Convert.ToDecimal(result));
         }
 
@@ -199,7 +212,7 @@ namespace RMdev.Calculator
             var a = Convert.ToDouble(_stack.Pop());
             var result = Math.Pow(a, 1d / b);
             if (double.IsNaN(result))
-                throw new ArgumentException($"Não existe raiz {b} de {a}.");
+                throw new ArgumentException(string.Format(Messages.RootNaN, b, a));
             _stack.Push(Convert.ToDecimal(result));
         }
 
@@ -208,7 +221,7 @@ namespace RMdev.Calculator
             var a = Convert.ToDouble(_stack.Pop());
             var result = Math.Sqrt(a);
             if (double.IsNaN(result))
-                throw new ArgumentException($"Não existe raiz quadrada de {a}.");
+                throw new ArgumentException(string.Format(Messages.SqrtNaN, a));
 
             _stack.Push(Convert.ToDecimal(result));
         }
