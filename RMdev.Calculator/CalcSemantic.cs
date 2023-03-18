@@ -19,14 +19,7 @@ namespace RMdev.Calculator
         private readonly string[] _reserved = new[] 
         {
             nameof(PI),
-            nameof(E) 
-            // TODO: Arredondar
-            // TODO: TRUNCAR
-            // TODO: Arredondar para cima
-            // TODO: Arredondar para baixo
-            // TODO: Seno
-            // TODO: Coseno
-            // TODO: Tangente
+            nameof(E)
         }.Concat(ScannerConstants.SPECIAL_CASES_KEYS).ToArray();
 
         public CalcSemantic()
@@ -123,10 +116,43 @@ namespace RMdev.Calculator
                     Abs();
                     break;
                 case 20:
-                    Media();
+                    Avg();
                     break;
                 case 21:
                     Sum();
+                    break;
+                case 22:
+                    Sin(); // TODO: testar daqui pra frente
+                    break;
+                case 23:
+                    Cos();
+                    break;
+                case 24:
+                    Tan();
+                    break;
+                case 25:
+                    Truncate();
+                    break;
+                case 26:
+                    Round();
+                    break;
+                case 27:
+                    Round2();
+                    break;
+                case 28:
+                    Ceiling();
+                    break;
+                case 29:
+                    Floor();
+                    break;
+                case 30:
+                    Max();
+                    break;
+                case 31:
+                    Min();
+                    break;
+                case 32:
+                    CustomFunction(token);
                     break;
             }
         }
@@ -232,9 +258,9 @@ namespace RMdev.Calculator
             _stack.Push(Math.Abs(a));
         }
 
-        public void Media()
+        public void Avg()
         {
-            decimal count = _params.Pop();
+            var count = _params.Pop();
             decimal total = 0;
             for (int i = 0; i < count; i++)
             {
@@ -246,7 +272,7 @@ namespace RMdev.Calculator
 
         public void Sum()
         {
-            decimal count = _params.Pop();
+            var count = _params.Pop();
             decimal total = 0;
             for (int i = 0; i < count; i++)
             {
@@ -254,6 +280,97 @@ namespace RMdev.Calculator
             }
             _stack.Push(total);
         }
+
+        public void Sin()
+        {
+            var a = Convert.ToDouble(_stack.Pop());
+            var result = Convert.ToDecimal(Math.Sin(a));
+            _stack.Push(result);
+        }
+
+        public void Cos()
+        {
+            var a = Convert.ToDouble(_stack.Pop());
+            var result = Convert.ToDecimal(Math.Cos(a));
+            _stack.Push(result);
+        }
+
+        public void Tan()
+        {
+            var a = Convert.ToDouble(_stack.Pop());
+            var result = Convert.ToDecimal(Math.Tan(a));
+            _stack.Push(result);
+        }
+
+        public void Truncate()
+        {
+            var a = _stack.Pop();
+            _stack.Push(Math.Truncate(a));
+        }
+
+        public void Round()
+        {
+            var a = _stack.Pop();
+            _stack.Push(Math.Round(a));
+        }
+
+        public void Round2()
+        {
+            var b = Convert.ToInt32(_stack.Pop()); // TODO: gramática com tipos reais e inteiros
+            var a = _stack.Pop();
+            _stack.Push(Math.Round(a, b));
+        }
+
+        public void Ceiling()
+        {
+            var a = _stack.Pop();
+            _stack.Push(Math.Ceiling(a));
+        }
+
+        public void Floor()
+        {
+            var a = _stack.Pop();
+            _stack.Push(Math.Floor(a));
+        }
+
+        public void Max()
+        {
+            var count = _params.Pop();
+            var max = _stack.Pop();
+            for (int i = 1; i < count; i++)
+            {
+                var value = _stack.Pop();
+                if(value > max)
+                    max = value;
+            }
+            _stack.Push(max);
+        }
+
+        public void Min()
+        {
+            var count = _params.Pop();
+            var min = _stack.Pop();
+            for (int i = 1; i < count; i++)
+            {
+                var value = _stack.Pop();
+                if (value < min)
+                    min = value;
+            }
+            _stack.Push(min);
+        }
+
+        private void CustomFunction(Token token)
+        {
+            var count = _params.Pop();
+            var parameters = new decimal[count];
+            for (int i = count-1; i >= 0; i--)
+            {
+                parameters[i] = _params.Pop();
+            }
+            var result = 0m; // TODO: Implementar
+            _stack.Push(result);
+        }
+
 
         public decimal Result() => _stack.Peek();
 

@@ -2,14 +2,20 @@
 using RMdev.Calculator;
 using RMdev.Calculator.Compiler;
 using System.Diagnostics;
-using System.Globalization;
 using static System.Console;
 
-//Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en");
+//Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo("en");
 //new Calc().SetVariable("E",0);
 
 var calc = new Calc();
 var stopWatch = Stopwatch.StartNew();
+long i = 0;
+do {
+    calc.Solve("1+1");
+    i++;
+}while (stopWatch.ElapsedMilliseconds < 60000);
+Console.WriteLine($"{i/60}/s");
+return;
 
 while (true)
 {
