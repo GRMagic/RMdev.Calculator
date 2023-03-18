@@ -4,10 +4,10 @@
     {
         [Trait("Functions", "Root")]
         [Theory(DisplayName = "Root")]
-        [InlineData("Raiz(4,2)", 2)]
-        [InlineData("Raiz(8,3)", 2)]
-        [InlineData("Raiz(27,3)", 3)]
-        [InlineData("Raiz(8,-3)", 0.5)]
+        [InlineData("Root(4,2)", 2)]
+        [InlineData("Root(8,3)", 2)]
+        [InlineData("Root(27,3)", 3)]
+        [InlineData("Root(8,-3)", 0.5)]
         public void SimpleRoot_Solve_Correctly(string expression, decimal expected)
         {
             // Arrange
@@ -26,7 +26,7 @@
         {
             // Arrange
             var calc = new Calc();
-            var expression = "Raiz(-9,2)";
+            var expression = "Root(-9,2)";
 
             // Act
             Action act = () => calc.Solve(expression);
@@ -37,7 +37,7 @@
 
         [Trait("Functions", "Sqrt")]
         [Theory(DisplayName = "Sqrt")]
-        [InlineData("Raiz(9)", 3)]
+        [InlineData("Sqrt(9)", 3)]
         public void SimpleSqrt_Solve_Correctly(string expression, decimal expected)
         {
             // Arrange
@@ -56,7 +56,7 @@
         {
             // Arrange
             var calc = new Calc();
-            var expression = "Raiz(-9)";
+            var expression = "Sqrt(-9)";
 
             // Act
             Action act = () => calc.Solve(expression);
@@ -84,12 +84,12 @@
 
         [Trait("Functions", "Media")]
         [Theory(DisplayName = "Media")]
-        [InlineData("Media(0)", 0)]
-        [InlineData("Media(1,2)", 1.5)]
-        [InlineData("Media(0,1,2)", 1)]
-        [InlineData("Media(-1,0,1)", 0)]
-        [InlineData("Media(-1,-2,-3)", -2)]
-        [InlineData("Media(-0.5,0.5)", 0)]
+        [InlineData("Avg(0)", 0)]
+        [InlineData("Avg(1,2)", 1.5)]
+        [InlineData("Avg(0,1,2)", 1)]
+        [InlineData("Avg(-1,0,1)", 0)]
+        [InlineData("Avg(-1,-2,-3)", -2)]
+        [InlineData("Avg(-0.5,0.5)", 0)]
         public void SimpleMedia_Solve_Correctly(string expression, decimal expected)
         {
             // Arrange
@@ -104,12 +104,12 @@
 
         [Trait("Functions", "Sum")]
         [Theory(DisplayName = "Sum")]
-        [InlineData("Soma(0)", 0)]
-        [InlineData("Soma(1,2)", 3)]
-        [InlineData("Soma(0,1,2)", 3)]
-        [InlineData("Soma(-1,0,1)", 0)]
-        [InlineData("Soma(-1,-2,-3)", -6)]
-        [InlineData("Soma(-0.5,0.5)", 0)]
+        [InlineData("Sum(0)", 0)]
+        [InlineData("Sum(1,2)", 3)]
+        [InlineData("Sum(0,1,2)", 3)]
+        [InlineData("Sum(-1,0,1)", 0)]
+        [InlineData("Sum(-1,-2,-3)", -6)]
+        [InlineData("Sum(-0.5,0.5)", 0)]
         public void SimpleSum_Solve_Correctly(string expression, decimal expected)
         {
             // Arrange

@@ -119,9 +119,9 @@ namespace RMdev.Calculator.Tests
         [Theory(DisplayName = "Reserved Name")]
         [InlineData("PI")]
         [InlineData("E")]
-        [InlineData("Soma")]
-        [InlineData("Media")]
-        [InlineData("Raiz")]
+        [InlineData("Sum")]
+        [InlineData("Avg")]
+        [InlineData("Root")]
         [InlineData("Abs")]
         public void ReservedName_SetVariable_ThrowsException(string variableName)
         {

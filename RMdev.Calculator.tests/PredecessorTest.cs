@@ -21,9 +21,9 @@
         [InlineData("100%80%8", 4)]
         [InlineData("(2+2)/((2+2)/((2+2)/((2+2)/2)))", 2)]
         [InlineData("((4/2)+(4/2))/2", 2)]
-        [InlineData("7+7*7^Media(2+3,7,3^2)", 5_764_808)]
+        [InlineData("7+7*7^Avg(2+3,7,3^2)", 5_764_808)]
         [InlineData("((4+6)*2-8)/((5%2)+1)^2+7*(3-2*(9/(1+2)))", -18)]
-        [InlineData("Abs(Soma((5*3+6^2)/Raiz((1+2)*3)*Media(1/4,7/4))-((100)-2*Abs(-4+5)+1))", 82)]
+        [InlineData("Abs(Sum((5*3+6^2)/Sqrt((1+2)*3)*Avg(1/4,7/4))-((100)-2*Abs(-4+5)+1))", 82)]
         public void ExpressionWithMultipleOperators_Solve_Corectly(string expression, decimal expected)
         {
             // Arrange

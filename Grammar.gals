@@ -1,0 +1,87 @@
+#Options
+GenerateScanner = true
+GenerateParser = true
+Language = C#
+ScannerName = Lexicon
+ParserName = Syntactic
+SemanticName = Semantic
+Package = RMdev.Calculator.Compiler
+ScannerCaseSensitive = true
+ScannerTable = FULL
+Input = STRING
+Parser = SLR
+#RegularDefinitions
+ignore: [\ \s\n\r\t]+
+number: [0-9]+(\.[0-9]+)?
+#Tokens
+: {ignore}
+
+: /\*([^\*]|[\r\n]|(\*+([^\*/]|[\r\n])))*\*+/
+: /[/][^\n]*
+
+NUMBER: {number}
+
+"+"
+"-"
+
+"*"
+"/"
+"%"
+
+"^"
+
+"("
+")"
+
+","
+
+ID: [_$a-zA-Z][_$a-zA-Z0-9]*
+
+ROOT = ID: "Root"
+SQRT = ID: "Sqrt"
+ABS = ID: "Abs"
+AVG = ID: "Avg"
+SUM = ID: "Sum"
+ROUND = ID : "Round"
+TRUNCATE = ID : "Truncate"
+CEILING = ID : "Ceiling"
+FLOOR = ID : "Floor"
+SIN = ID : "Sin"
+COS = ID : "Cos"
+TAN = ID : "Tan"
+MAX = ID : "Max"
+MIN = ID : "Min"
+CUSTOMFUNCTION = ID : "CustomFunction"
+
+#NonTerminals
+
+#Grammar
+<EXP> ::= <EXP> "+" <E1> #10 | <EXP> "-" <E1> #11 | <E1>;
+<E1> ::= <E1> "/" <E2> #12 | <E1> "*" <E2> #13 | <E1> "%" <E2> #14 | <E2>;
+<E2> ::= <E2> "^" <E3> #15 | <E3>;
+<E3> ::= "-" <E4> #16 | <E4>;
+<E4> ::= <VALUE> | "(" <EXP> ")" | <FUNC>;
+<VALUE> ::= ID #1 | <CONST> ;
+<CONST> ::= NUMBER #0;
+
+<FUNC> ::= ROOT "(" <EXP> "," <EXP> ")" #17;
+<FUNC> ::= SQRT "(" <EXP> ")" #18;
+<FUNC> ::= ABS "(" <EXP> ")" #19;
+<FUNC> ::= AVG "(" #3 <PN> ")" #20;
+<FUNC> ::= SUM "(" #3 <PN> ")" #21;
+<FUNC> ::= SIN "(" <EXP> ")" #22;
+<FUNC> ::= COS "(" <EXP> ")" #23;
+<FUNC> ::= TAN "(" <EXP> ")" #24;
+<FUNC> ::= TRUNCATE "(" <EXP> ")" #25;
+<FUNC> ::= ROUND "(" <EXP> ")" #26;
+<FUNC> ::= ROUND "(" <EXP> "," <EXP> ")" #27;
+<FUNC> ::= CEILING "(" <EXP> ")" #28;
+<FUNC> ::= FLOOR "(" <EXP> ")" #29;
+<FUNC> ::= MAX "(" #3 <PN> ")" #30;
+<FUNC> ::= MIN "(" #3 <PN> ")" #31;
+<FUNC> ::= CUSTOMFUNCTION "(" #3 <PNOPTIONAL> ")" #32;
+
+<PN> ::= <PN> "," <EXP> #4;
+<PN> ::= <EXP> #4;
+
+<PNOPTIONAL> ::= <PN> | î;

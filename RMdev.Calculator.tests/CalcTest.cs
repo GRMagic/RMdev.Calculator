@@ -35,10 +35,10 @@ namespace RMdev.Calculator.Tests
         [InlineData("1+a*2")]
         [InlineData("1+a*2/3")]
         [InlineData("1+a*2/3^4")]
-        [InlineData("1+a*2/3^4-Soma(1%1)")]
-        [InlineData("Soma(1%1)/Media(1,2,3)")]
-        [InlineData("-Soma(1^1)/Raiz(9)")]
-        [InlineData("-Raiz(27,3)")]
+        [InlineData("1+a*2/3^4-Sum(1%1)")]
+        [InlineData("Sum(1%1)/Avg(1,2,3)")]
+        [InlineData("-Sum(1^1)/Sqrt(9)")]
+        [InlineData("-Root(27,3)")]
         [InlineData("1+(2)*(3/4)")]
         [InlineData("-(3/4)")]
         [InlineData("(((((1)))))")]
@@ -77,7 +77,7 @@ namespace RMdev.Calculator.Tests
         [InlineData("a", new[] { "a" })]
         [InlineData("a+b", new[] { "a", "b" })]
         [InlineData("1+(a*2)+b-c", new[] { "a", "b", "c" })]
-        [InlineData("a+b^2*Media(c,1,5)", new[] { "a", "b", "c" })]
+        [InlineData("a+b^2*Avg(c,1,5)", new[] { "a", "b", "c" })]
         public void CorrectExpression_RequiredVariables_Successful(string expression, string[] expected)
         {
             // Arrange
@@ -94,7 +94,7 @@ namespace RMdev.Calculator.Tests
         [Theory(DisplayName = "Solve expression with syntax error")]
         [InlineData("")]
         [InlineData("123A")]
-        [InlineData("Soma+(1)")]
+        [InlineData("Sum+(1)")]
         [InlineData("2+(1))")]
         [InlineData("2+((1)")]
         [InlineData("+")]

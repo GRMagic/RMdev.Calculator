@@ -376,17 +376,17 @@ namespace RMdev.Calculator.Compiler
 
         public static readonly int[] SPECIAL_CASES_INDEXES =
         {
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 4, 4
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
         };
 
         public static readonly string[] SPECIAL_CASES_KEYS =
         {
-            "Abs", "Media", "Raiz", "Soma"
+            "Abs", "Avg", "Ceiling", "Cos", "CustomFunction", "Floor", "Max", "Min", "Root", "Round", "Sin", "Sqrt", "Sum", "Tan", "Truncate"
         };
 
         public static readonly int[] SPECIAL_CASES_VALUES =
         {
-            14, 15, 13, 16
+            15, 16, 20, 23, 27, 21, 25, 26, 13, 18, 22, 14, 17, 24, 19
         };
 
         public static readonly string[] SCANNER_ERROR =
