@@ -4,6 +4,29 @@ namespace RMdev.Calculator.Tests
 {
     public class CalcTest
     {
+        [Trait("Calc", "Comment")]
+        [Theory(DisplayName = "Ignore cases")]
+        [InlineData("2 //inline comment", 2)]
+        [InlineData("2 // + 5", 2)]
+        [InlineData("1 + 1 /* \n block comment here */ ", 2)]
+        [InlineData("1 + 1 /* +5 */ ", 2)]
+        [InlineData("1 + \t \r \n 1 ", 2)]
+        [InlineData("/* block comment here */ 1 + 1", 2)]
+        [InlineData("1 /* block comment here */ + 1", 2)]
+        [InlineData("1 + /* block comment here */ 1", 2)]
+        [InlineData("1 + 1 /* block comment here */ ", 2)]
+        public void CommentedExpression_Check_Successful(string expression, decimal expected)
+        {
+            // Arrange
+            var calc = new Calc();
+
+            // Act
+            var resut = calc.Solve(expression);
+
+            // Assert
+            Assert.Equal(expected, resut);
+        }
+
         [Trait("Calc", "Check")]
         [Theory(DisplayName = "Check Lexical and Syntax")]
         [InlineData("0")]
@@ -69,6 +92,7 @@ namespace RMdev.Calculator.Tests
 
         [Trait("Calc", "Solve")]
         [Theory(DisplayName = "Solve expression with syntax error")]
+        [InlineData("")]
         [InlineData("123A")]
         [InlineData("Soma+(1)")]
         [InlineData("2+(1))")]

@@ -3,14 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>disable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>rmdev Expressions Calculator</Title>
+    <Version>$(VersionPrefix)</Version>
+    <Description>Calculator to check and evaluate mathematical expressions</Description>
+    <RepositoryUrl>https://github.com/GRMagic/RMdev.Calculator</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="Resources\Messages.pt.Designer.cs">
-      <DependentUpon>Messages.pt.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
     <Compile Update="Resources\Messages.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
