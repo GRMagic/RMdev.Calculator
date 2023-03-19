@@ -284,23 +284,23 @@ namespace RMdev.Calculator
 
         public void Sin()
         {
-            var a = Convert.ToDouble(_stack.Pop());
-            var result = Convert.ToDecimal(Math.Sin(a));
-            _stack.Push(result);
+            var a = Convert.ToDouble(_stack.Pop() * PI / 180M);
+            var result = Math.Sin(a);
+            _stack.Push(Convert.ToDecimal(result));
         }
 
         public void Cos()
         {
-            var a = Convert.ToDouble(_stack.Pop());
-            var result = Convert.ToDecimal(Math.Cos(a));
-            _stack.Push(result);
+            var a = Convert.ToDouble(_stack.Pop() * PI / 180M);
+            var result = Math.Cos(a);
+            _stack.Push(Convert.ToDecimal(result));
         }
 
         public void Tan()
         {
-            var a = Convert.ToDouble(_stack.Pop());
-            var result = Convert.ToDecimal(Math.Tan(a));
-            _stack.Push(result);
+            var a = Convert.ToDouble(_stack.Pop() * PI / 180M);
+            var result = Math.Tan(a);
+            _stack.Push(Convert.ToDecimal(result));
         }
 
         public void Truncate()
