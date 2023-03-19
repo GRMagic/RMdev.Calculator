@@ -94,7 +94,7 @@ namespace RMdev.Calculator.Tests
         [Theory(DisplayName = "Solve expression with syntax error")]
         [InlineData("")]
         [InlineData("123A")]
-        [InlineData("Sum+(1)")]
+        [InlineData("Soma+(1)")]
         [InlineData("2+(1))")]
         [InlineData("2+((1)")]
         [InlineData("+")]
@@ -105,7 +105,7 @@ namespace RMdev.Calculator.Tests
         public void ExpressionWithSyntaxError_Solve_ThrowsExceptino(string expression)
         {
             // Arrange
-            var calc = new Calc();
+            var calc = new Calc(System.Globalization.CultureInfo.CreateSpecificCulture("pt-BR"));
 
             // Act
             Action act = () => calc.Solve(expression);

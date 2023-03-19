@@ -1,5 +1,9 @@
+using RMdev.Calculator.Resources;
 using System;
+using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
+using System.Linq;
 using static RMdev.Calculator.Compiler.Constants;
 using static RMdev.Calculator.Compiler.ParserConstants;
 using static RMdev.Calculator.Compiler.ScannerConstants;
@@ -8,6 +12,8 @@ namespace RMdev.Calculator.Compiler
 {
     sealed class Lexicon
     {
+        private readonly Dictionary<string, int> _specialCases;
+
         private int _position = 0;
         
         private string _input;
@@ -21,9 +27,11 @@ namespace RMdev.Calculator.Compiler
             }
         }
 
-        public Lexicon() : this("") { }
-
-        public Lexicon(string input) => Input = input;
+        public Lexicon(string input, CultureInfo cultureInfo)
+        {
+            Input = input;
+            _specialCases = SpecialCases(cultureInfo);
+        }
 
         private char NextChar()
         {
@@ -105,25 +113,9 @@ namespace RMdev.Calculator.Compiler
 
         public int LookupToken(int @base, string key)
         {
-            int start = SPECIAL_CASES_INDEXES[@base];
-            int end = SPECIAL_CASES_INDEXES[@base + 1] - 1;
-
-            while (start <= end)
-            {
-                int half = (start + end) / 2;
-                int comp = SPECIAL_CASES_KEYS[half].CompareTo(key);
-
-                if (comp == 0)
-                    return SPECIAL_CASES_VALUES[half];
-                else if (comp < 0)
-                    start = half + 1;
-                else  //(comp > 0)
-                    end = half - 1;
-            }
-
+            if (_specialCases.TryGetValue(key, out var value)) return value;
             return @base;
         }
-
 
     }
 

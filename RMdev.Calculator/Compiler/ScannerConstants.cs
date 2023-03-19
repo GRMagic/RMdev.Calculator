@@ -1,4 +1,6 @@
 using RMdev.Calculator.Resources;
+using System.Collections.Generic;
+using System.Globalization;
 
 namespace RMdev.Calculator.Compiler
 {
@@ -374,14 +376,23 @@ namespace RMdev.Calculator.Compiler
             -1,  0, 12,  7,  9, 10,  5,  3, 11,  4,  6,  2,  8, -1,  0, -1, -1,  2,  0
         };
 
-        public static readonly int[] SPECIAL_CASES_INDEXES =
-        {
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
-        };
-
         public static readonly string[] SPECIAL_CASES_KEYS =
         {
-            "Abs", "Avg", "Ceiling", "Cos", "CustomFunction", "Floor", "Max", "Min", "Root", "Round", "Sin", "Sqrt", "Sum", "Tan", "Truncate"
+            "Abs",
+            "Avg",
+            "Ceiling",
+            "Cos",
+            "CustomFunction",
+            "Floor",
+            "Max",
+            "Min",
+            "Root",
+            "Round",
+            "Sin",
+            "Sqrt",
+            "Sum",
+            "Tan",
+            "Truncate"
         };
 
         public static readonly int[] SPECIAL_CASES_VALUES =
@@ -404,14 +415,33 @@ namespace RMdev.Calculator.Compiler
             "",
             "",
             "",
-            string.Format(Messages.ErrorIdentifying,"<ignorar>"),
+            string.Format(Messages.ErrorIdentifying,"<ignore>"),
             "",
-            string.Format(Messages.ErrorIdentifying,"NUMERO"),
-            string.Format(Messages.ErrorIdentifying,"<ignorar>"),
+            string.Format(Messages.ErrorIdentifying,"NUMBER"),
+            string.Format(Messages.ErrorIdentifying,"<ignore>"),
             "",
             ""
         };
 
+        public const string CUSTOM_FUNCTION = "CustomFunction";
+
+        public static Dictionary<string, int> SpecialCases(CultureInfo cultureInfo = null)
+        {
+            cultureInfo ??= CultureInfo.InvariantCulture;
+            var cases = new Dictionary<string, int>();
+
+            for (var i = 0; i < SPECIAL_CASES_KEYS.Length; i++)
+                if (SPECIAL_CASES_KEYS[i] == CUSTOM_FUNCTION)
+                {
+                    cases[CUSTOM_FUNCTION] = SPECIAL_CASES_VALUES[i];
+                }
+                else
+                {
+                    cases[Functions.ResourceManager.GetString(SPECIAL_CASES_KEYS[i], cultureInfo)] = SPECIAL_CASES_VALUES[i];
+                }
+
+            return cases;
+        }
     }
 
 }

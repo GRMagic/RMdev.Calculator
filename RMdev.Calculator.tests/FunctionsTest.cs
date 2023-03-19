@@ -121,5 +121,17 @@
             // Assert
             Assert.Equal(expected, result);
         }
+
+        // TODO: Test Custom Functions
+        // TODO: Test Min
+        // TODO: Test Max
+        // TODO: Test Truncate
+        // TODO: Test Round
+        // TODO: Test Ceiling
+        // TODO: Test Floor
+        // TODO: Test Sin
+        // TODO: Test Cos
+        // TODO: Test Tan
+
     }
 }

@@ -2,6 +2,7 @@
 using RMdev.Calculator.Resources;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace RMdev.Calculator
@@ -16,16 +17,16 @@ namespace RMdev.Calculator
 
         private readonly decimal PI = Convert.ToDecimal(Math.PI);
         private readonly decimal E = Convert.ToDecimal(Math.E);
-        private readonly string[] _reserved = new[] 
-        {
-            nameof(PI),
-            nameof(E)
-        }.Concat(ScannerConstants.SPECIAL_CASES_KEYS).ToArray();
+        private readonly string[] _reserved;
+        private readonly CultureInfo _cultureInfo;
 
-        public CalcSemantic()
+        public CalcSemantic(CultureInfo cultureInfo = null)
         {
             _variables[nameof(PI)] = PI;
             _variables[nameof(E)] = E;
+
+            _reserved = new[] { nameof(PI), nameof(E) }.Concat(ScannerConstants.SpecialCases(cultureInfo).Keys).ToArray();
+            _cultureInfo = cultureInfo;
         }
 
         public decimal Solve(string expression)
@@ -33,7 +34,7 @@ namespace RMdev.Calculator
             _params.Clear();
             _stack.Clear();
 
-            var scanner = new Lexicon(expression);
+            var scanner = new Lexicon(expression, _cultureInfo);
             var syntatic = new Syntactic();
             syntatic.Parse(scanner, this);
             return _stack.Peek();
@@ -48,7 +49,7 @@ namespace RMdev.Calculator
 
         public IEnumerable<string> RequiredVariables(string expression)
         {
-            Lexicon lexicon = new Lexicon(expression);
+            Lexicon lexicon = new Lexicon(expression, _cultureInfo);
             var variables = new HashSet<string>();
 
             var token = lexicon.NextToken();
@@ -122,7 +123,7 @@ namespace RMdev.Calculator
                     Sum();
                     break;
                 case 22:
-                    Sin(); // TODO: testar daqui pra frente
+                    Sin();
                     break;
                 case 23:
                     Cos();
@@ -367,10 +368,9 @@ namespace RMdev.Calculator
             {
                 parameters[i] = _params.Pop();
             }
-            var result = 0m; // TODO: Implementar
+            var result = 0m; // TODO: Implementar CustomFunction
             _stack.Push(result);
         }
-
 
         public decimal Result() => _stack.Peek();
 
