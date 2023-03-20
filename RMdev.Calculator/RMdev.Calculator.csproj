@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
@@ -8,8 +8,13 @@
     <Version>$(VersionPrefix)</Version>
     <Description>Calculator to check and evaluate mathematical expressions</Description>
     <RepositoryUrl>https://github.com/GRMagic/RMdev.Calculator</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Authors>Gustavo.rm90</Authors>
+    <PackageTags>Expression;Calculator;Formula;Calculadora</PackageTags>
   </PropertyGroup>
-
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
   <ItemGroup>
     <Compile Update="Resources\Functions.Designer.cs">
       <DesignTime>True</DesignTime>
