@@ -4,12 +4,12 @@ namespace RMdev.Calculator.Compiler
     {
         public const int FIRST_SEMANTIC_ACTION = 38;
 
-        public const int SHIFT  = 0;
+        public const int SHIFT = 0;
         public const int REDUCE = 1;
         public const int ACTION = 2;
         public const int ACCEPT = 3;
-        public const int GO_TO  = 4;
-        public const int ERROR  = 5;
+        public const int GO_TO = 4;
+        public const int ERROR = 5;
 
         public static readonly int[][][] PARSER_TABLE =
         {

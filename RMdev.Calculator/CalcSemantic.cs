@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using static RMdev.Calculator.CalcSemantic;
 
 namespace RMdev.Calculator
 {
@@ -13,7 +12,7 @@ namespace RMdev.Calculator
         private Stack<decimal> _stack = new Stack<decimal>();
         private Stack<int> _params = new Stack<int>();
         private Stack<string> _stackCustomFunctions = new Stack<string>();
-        
+
         private Dictionary<string, decimal> _variables = new Dictionary<string, decimal>();
         private readonly Dictionary<string, CustomFunction> _customFunctions = new Dictionary<string, CustomFunction>();
 
@@ -232,7 +231,7 @@ namespace RMdev.Calculator
             var result = Math.Pow(a, b);
             if (double.IsNaN(result))
                 throw new ArgumentException(string.Format(Messages.PowNaN, a, b));
-            
+
             _stack.Push(Convert.ToDecimal(result));
         }
 
@@ -350,7 +349,7 @@ namespace RMdev.Calculator
             for (int i = 1; i < count; i++)
             {
                 var value = _stack.Pop();
-                if(value > max)
+                if (value > max)
                     max = value;
             }
             _stack.Push(max);
@@ -381,7 +380,7 @@ namespace RMdev.Calculator
 
             var count = _params.Pop();
             var parameters = new decimal[count];
-            for (int i = count-1; i >= 0; i--)
+            for (int i = count - 1; i >= 0; i--)
             {
                 parameters[i] = _stack.Pop();
             }

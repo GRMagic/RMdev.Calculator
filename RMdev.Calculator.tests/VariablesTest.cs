@@ -37,7 +37,7 @@ namespace RMdev.Calculator.Tests
             var result = calc.Solve(expression);
 
             // Assert
-            Assert.Equal(valueA+valueB, result);
+            Assert.Equal(valueA + valueB, result);
         }
 
         [Trait("Variables", "Not Defined")]
@@ -138,7 +138,7 @@ namespace RMdev.Calculator.Tests
             var calc = new Calc();
 
             // Act 
-            Action act = () => calc.SetVariable(variableName ,0);
+            Action act = () => calc.SetVariable(variableName, 0);
 
             // Assert
             Assert.Throws<ArgumentException>(act);

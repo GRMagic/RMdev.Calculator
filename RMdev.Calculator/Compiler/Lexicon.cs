@@ -1,11 +1,7 @@
-using RMdev.Calculator.Resources;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.IO;
 using System.Linq;
-using static RMdev.Calculator.Compiler.Constants;
-using static RMdev.Calculator.Compiler.ParserConstants;
 using static RMdev.Calculator.Compiler.ScannerConstants;
 
 namespace RMdev.Calculator.Compiler
@@ -15,14 +11,14 @@ namespace RMdev.Calculator.Compiler
         private readonly Dictionary<string, int> _specialCases;
         private readonly IEnumerable<string> _customFunctions;
         private int _position = 0;
-        
+
         private string _input;
-        public string Input 
+        public string Input
         {
             get => _input;
-            set 
-            { 
-                _input = value; 
+            set
+            {
+                _input = value;
                 _position = 0;
             }
         }

@@ -57,7 +57,7 @@ namespace RMdev.Calculator.Tests
         [InlineData("0", null)]
         [InlineData("1+-2", null)]
         [InlineData("1--2", null)]
-        [InlineData("a", new[] { "a" } )]
+        [InlineData("a", new[] { "a" })]
         [InlineData("1+a", new[] { "a" })]
         [InlineData("a+b", new[] { "b", "a" })]
         [InlineData("1+a*b/3", new[] { "a", "b", "$" })]
@@ -127,14 +127,14 @@ namespace RMdev.Calculator.Tests
 
             // Act
             var start = DateTime.UtcNow;
-            while(DateTime.UtcNow - start < timeLimit)
+            while (DateTime.UtcNow - start < timeLimit)
             {
                 calc.Solve(expression);
                 count++;
             }
 
             // Assert
-            Assert.True(count/seconds > 10_000);
+            Assert.True(count / seconds > 10_000);
         }
     }
 }

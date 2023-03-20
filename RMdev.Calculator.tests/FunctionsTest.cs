@@ -479,7 +479,7 @@ namespace RMdev.Calculator.Tests
             if (x[0] != n || n < 0) throw new SemanticError("Fatorial parameter must be a positive integer.");
 
             decimal result = 1;
-            for(; n > 1; n--) result *= n;
+            for (; n > 1; n--) result *= n;
             return result;
         }
 
