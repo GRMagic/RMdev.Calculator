@@ -438,6 +438,39 @@ namespace RMdev.Calculator.Tests
             calc.Check(expression, true);
         }
 
+        [Trait("Functions", "CustomFunction")]
+        [Fact(DisplayName = "Custom function called CustomFunction")]
+        public void CustomFunctionCalledCustomFunction_Solve_Correctly()
+        {
+            // Arrange
+            string expression = "CustomFunction(0,10)";
+            decimal expected = 5;
+            var calc = new Calc();
+            calc.CustomFunctions["CustomFunction"] = args => args.Average();
+
+            // Act
+            var result = calc.Solve(expression);
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
+
+        [Trait("Functions", "CustomFunction")]
+        [Fact(DisplayName = "Custom function override native function")]
+        public void CustomFunctionOverride_Solve_Correctly()
+        {
+            // Arrange
+            string expression = "Sum(0,10)";
+            decimal expected = 5;
+            var calc = new Calc();
+            calc.CustomFunctions["Sum"] = args => expected;
+
+            // Act
+            var result = calc.Solve(expression);
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
 
         private static decimal Fatorial(decimal[] x)
         {
