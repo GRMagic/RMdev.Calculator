@@ -4,18 +4,11 @@ using RMdev.Calculator.Compiler;
 using System.Diagnostics;
 using static System.Console;
 
-//Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo("en");
-//new Calc().SetVariable("E",0);
+var calc = new Calc(Thread.CurrentThread.CurrentCulture);
 
-var calc = new Calc();
+calc.CustomFunctions["ElevarAoCubo"] = args => args[0] * args[0] * args[0];
+
 var stopWatch = Stopwatch.StartNew();
-long i = 0;
-do {
-    calc.Solve("1+1");
-    i++;
-}while (stopWatch.ElapsedMilliseconds < 60000);
-Console.WriteLine($"{i/60}/s");
-return;
 
 while (true)
 {
