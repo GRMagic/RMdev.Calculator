@@ -129,6 +129,10 @@
     <value>A palavra '{0}' é reservada.</value>
     <comment>{0} = Palavra reservada</comment>
   </data>
+  <data name="ReservedWordForCustomFunction" xml:space="preserve">
+    <value>A palavra '{0}' foi reservada por uma função personalizada.</value>
+    <comment>{0} = Palavra reservada</comment>
+  </data>
   <data name="RootNaN" xml:space="preserve">
     <value>Não existe raiz {1} de {0}.</value>
     <comment>{0} = Value;  {1} = Root</comment>

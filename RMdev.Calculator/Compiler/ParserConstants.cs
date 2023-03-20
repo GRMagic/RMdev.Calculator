@@ -29,7 +29,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -47,7 +47,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -65,7 +65,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -83,7 +83,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -101,7 +101,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -119,7 +119,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -137,7 +137,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -155,7 +155,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -173,7 +173,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -191,7 +191,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -209,7 +209,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -227,7 +227,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -245,7 +245,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -263,7 +263,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -281,7 +281,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -299,7 +299,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -317,7 +317,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -335,7 +335,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -353,7 +353,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -371,7 +371,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -389,7 +389,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -407,7 +407,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -425,7 +425,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -443,7 +443,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -461,7 +461,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -479,12 +479,12 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT ,  51}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ACTION,  32}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
@@ -496,8 +496,8 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO ,  51},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -515,7 +515,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -533,7 +533,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -551,7 +551,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -569,7 +569,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -587,7 +587,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -605,7 +605,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -623,7 +623,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -641,7 +641,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -659,7 +659,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -677,7 +677,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -695,7 +695,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -713,7 +713,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -731,7 +731,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -749,7 +749,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -767,7 +767,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -785,7 +785,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -803,7 +803,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -821,7 +821,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -839,7 +839,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -857,7 +857,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -875,7 +875,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -893,7 +893,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -911,7 +911,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -929,25 +929,25 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
-                new[] { ERROR ,   0}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3},
-                new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3},
-                new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3},
-                new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3},
-                new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3},
-                new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { GO_TO ,  75}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT ,  75}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -965,7 +965,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -983,7 +983,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1001,7 +1001,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1019,7 +1019,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1037,7 +1037,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1055,7 +1055,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1073,7 +1073,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1091,7 +1091,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1109,7 +1109,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1127,7 +1127,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1145,7 +1145,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1163,7 +1163,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1181,7 +1181,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1199,7 +1199,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1217,7 +1217,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1235,7 +1235,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1253,7 +1253,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1271,7 +1271,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1289,7 +1289,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1307,7 +1307,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1325,7 +1325,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1343,7 +1343,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1361,25 +1361,25 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
-                new[] { ERROR ,   0}, new[] { SHIFT ,  27}, new[] { ERROR ,   0}, new[] { SHIFT ,   5}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT ,   8}, new[] { REDUCE,  36},
-                new[] { ERROR ,   0}, new[] { SHIFT ,  10}, new[] { SHIFT ,  12}, new[] { SHIFT ,  13}, new[] { SHIFT ,  14},
-                new[] { SHIFT ,  15}, new[] { SHIFT ,  16}, new[] { SHIFT ,  21}, new[] { SHIFT ,  20}, new[] { SHIFT ,  22},
-                new[] { SHIFT ,  23}, new[] { SHIFT ,  17}, new[] { SHIFT ,  18}, new[] { SHIFT ,  19}, new[] { SHIFT ,  24},
-                new[] { SHIFT ,  25}, new[] { SHIFT ,  26}, new[] { GO_TO ,  86}, new[] { GO_TO ,   2}, new[] { GO_TO ,   3},
-                new[] { GO_TO ,   4}, new[] { GO_TO ,   6}, new[] { GO_TO ,   7}, new[] { GO_TO ,   9}, new[] { GO_TO ,  11},
-                new[] { GO_TO ,  99}, new[] { GO_TO ,  98}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3},
+                new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3},
+                new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3},
+                new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3},
+                new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ACTION,   3},
+                new[] { ACTION,   3}, new[] { ACTION,   3}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { GO_TO ,  98}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1397,7 +1397,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1415,7 +1415,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1433,7 +1433,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1451,7 +1451,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1469,7 +1469,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1487,7 +1487,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1496,7 +1496,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { SHIFT ,  10}, new[] { SHIFT ,  12}, new[] { SHIFT ,  13}, new[] { SHIFT ,  14},
                 new[] { SHIFT ,  15}, new[] { SHIFT ,  16}, new[] { SHIFT ,  21}, new[] { SHIFT ,  20}, new[] { SHIFT ,  22},
                 new[] { SHIFT ,  23}, new[] { SHIFT ,  17}, new[] { SHIFT ,  18}, new[] { SHIFT ,  19}, new[] { SHIFT ,  24},
-                new[] { SHIFT ,  25}, new[] { SHIFT ,  26}, new[] { GO_TO , 100}, new[] { GO_TO ,   2}, new[] { GO_TO ,   3},
+                new[] { SHIFT ,  25}, new[] { SHIFT ,  26}, new[] { GO_TO ,  99}, new[] { GO_TO ,   2}, new[] { GO_TO ,   3},
                 new[] { GO_TO ,   4}, new[] { GO_TO ,   6}, new[] { GO_TO ,   7}, new[] { GO_TO ,   9}, new[] { GO_TO ,  11},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
@@ -1505,7 +1505,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1520,10 +1520,10 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { GO_TO , 101}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { GO_TO , 100}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1538,16 +1538,16 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { GO_TO , 102}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { GO_TO , 101}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT , 103},
-                new[] { SHIFT , 104}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT , 102},
+                new[] { SHIFT , 103}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
@@ -1559,7 +1559,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1571,19 +1571,19 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { GO_TO , 105}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { GO_TO , 104}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT , 106},
-                new[] { SHIFT , 104}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT , 105},
+                new[] { SHIFT , 103}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
@@ -1595,7 +1595,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1610,10 +1610,10 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO , 107},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO , 106},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1629,9 +1629,9 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { GO_TO , 108}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { GO_TO , 107}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1647,9 +1647,9 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { GO_TO , 109}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { GO_TO , 108}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1665,9 +1665,9 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO , 110}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO , 109}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1683,9 +1683,9 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO , 111}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO , 110}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1694,7 +1694,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { SHIFT ,  10}, new[] { SHIFT ,  12}, new[] { SHIFT ,  13}, new[] { SHIFT ,  14},
                 new[] { SHIFT ,  15}, new[] { SHIFT ,  16}, new[] { SHIFT ,  21}, new[] { SHIFT ,  20}, new[] { SHIFT ,  22},
                 new[] { SHIFT ,  23}, new[] { SHIFT ,  17}, new[] { SHIFT ,  18}, new[] { SHIFT ,  19}, new[] { SHIFT ,  24},
-                new[] { SHIFT ,  25}, new[] { SHIFT ,  26}, new[] { GO_TO , 112}, new[] { GO_TO ,   2}, new[] { GO_TO ,   3},
+                new[] { SHIFT ,  25}, new[] { SHIFT ,  26}, new[] { GO_TO , 111}, new[] { GO_TO ,   2}, new[] { GO_TO ,   3},
                 new[] { GO_TO ,   4}, new[] { GO_TO ,   6}, new[] { GO_TO ,   7}, new[] { GO_TO ,   9}, new[] { GO_TO ,  11},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
@@ -1703,7 +1703,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1720,8 +1720,8 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { GO_TO , 113}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { GO_TO , 112}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1738,14 +1738,32 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { GO_TO , 114}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { GO_TO , 113}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
+            },
+            new[]
+            {
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT , 114},
+                new[] { SHIFT , 103}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT , 115},
-                new[] { SHIFT , 104}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { SHIFT , 103}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
@@ -1757,61 +1775,25 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT , 116},
-                new[] { SHIFT , 104}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
-            },
-            new[]
-            {
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT , 117},
+                new[] { ERROR ,   0}, new[] { SHIFT ,  27}, new[] { ERROR ,   0}, new[] { SHIFT ,   5}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT ,   8}, new[] { REDUCE,  36},
+                new[] { ERROR ,   0}, new[] { SHIFT ,  10}, new[] { SHIFT ,  12}, new[] { SHIFT ,  13}, new[] { SHIFT ,  14},
+                new[] { SHIFT ,  15}, new[] { SHIFT ,  16}, new[] { SHIFT ,  21}, new[] { SHIFT ,  20}, new[] { SHIFT ,  22},
+                new[] { SHIFT ,  23}, new[] { SHIFT ,  17}, new[] { SHIFT ,  18}, new[] { SHIFT ,  19}, new[] { SHIFT ,  24},
+                new[] { SHIFT ,  25}, new[] { SHIFT ,  26}, new[] { GO_TO ,  86}, new[] { GO_TO ,   2}, new[] { GO_TO ,   3},
+                new[] { GO_TO ,   4}, new[] { GO_TO ,   6}, new[] { GO_TO ,   7}, new[] { GO_TO ,   9}, new[] { GO_TO ,  11},
+                new[] { GO_TO , 117}, new[] { GO_TO , 116}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
-            },
-            new[]
-            {
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { REDUCE,  35},
-                new[] { SHIFT , 104}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1829,7 +1811,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1847,7 +1829,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1865,7 +1847,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1883,7 +1865,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO , 119}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1901,7 +1883,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1919,7 +1901,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1937,7 +1919,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO , 121}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1955,7 +1937,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1973,7 +1955,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -1991,7 +1973,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2009,7 +1991,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2027,7 +2009,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2045,7 +2027,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2063,7 +2045,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2081,7 +2063,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2099,7 +2081,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO , 123}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2117,13 +2099,12 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO , 124}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
-                new[] { ACTION,  32}, new[] { ERROR ,   0}, new[] { ACTION,  32}, new[] { ACTION,  32}, new[] { ACTION,  32},
-                new[] { ACTION,  32}, new[] { ACTION,  32}, new[] { ACTION,  32}, new[] { ERROR ,   0}, new[] { ACTION,  32},
-                new[] { ACTION,  32}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { SHIFT , 125},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
@@ -2134,8 +2115,27 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO , 125},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
+            },
+            new[]
+            {
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { REDUCE,  35},
+                new[] { SHIFT , 103}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2153,7 +2153,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2171,7 +2171,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2189,7 +2189,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2207,7 +2207,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2225,7 +2225,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { GO_TO , 128},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2243,7 +2243,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2261,13 +2261,13 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
-                new[] { REDUCE,  32}, new[] { ERROR ,   0}, new[] { REDUCE,  32}, new[] { REDUCE,  32}, new[] { REDUCE,  32},
-                new[] { REDUCE,  32}, new[] { REDUCE,  32}, new[] { REDUCE,  32}, new[] { ERROR ,   0}, new[] { REDUCE,  32},
-                new[] { REDUCE,  32}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ACTION,  33}, new[] { ERROR ,   0}, new[] { ACTION,  33}, new[] { ACTION,  33}, new[] { ACTION,  33},
+                new[] { ACTION,  33}, new[] { ACTION,  33}, new[] { ACTION,  33}, new[] { ERROR ,   0}, new[] { ACTION,  33},
+                new[] { ACTION,  33}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
@@ -2279,7 +2279,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { GO_TO , 129}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2297,7 +2297,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2315,7 +2315,7 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             },
             new[]
             {
@@ -2333,7 +2333,25 @@ namespace RMdev.Calculator.Compiler
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
                 new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
-                new[] { ERROR ,   0}
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
+            },
+            new[]
+            {
+                new[] { REDUCE,  32}, new[] { ERROR ,   0}, new[] { REDUCE,  32}, new[] { REDUCE,  32}, new[] { REDUCE,  32},
+                new[] { REDUCE,  32}, new[] { REDUCE,  32}, new[] { REDUCE,  32}, new[] { ERROR ,   0}, new[] { REDUCE,  32},
+                new[] { REDUCE,  32}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0}, new[] { ERROR ,   0},
+                new[] { ERROR ,   0}, new[] { ERROR ,   0}
             }
         };
 
@@ -2371,7 +2389,7 @@ namespace RMdev.Calculator.Compiler
             new[] { 34, 5 },
             new[] { 34, 6 },
             new[] { 34, 6 },
-            new[] { 34, 6 },
+            new[] { 34, 7 },
             new[] { 36, 4 },
             new[] { 36, 2 },
             new[] { 37, 1 },

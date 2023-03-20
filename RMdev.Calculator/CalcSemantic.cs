@@ -4,37 +4,41 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using static RMdev.Calculator.CalcSemantic;
 
 namespace RMdev.Calculator
 {
     class CalcSemantic : Semantic
     {
         private Stack<decimal> _stack = new Stack<decimal>();
-
         private Stack<int> _params = new Stack<int>();
-
+        private Stack<string> _stackCustomFunctions = new Stack<string>();
+        
         private Dictionary<string, decimal> _variables = new Dictionary<string, decimal>();
+        private readonly Dictionary<string, CustomFunction> _customFunctions = new Dictionary<string, CustomFunction>();
 
         private readonly decimal PI = Convert.ToDecimal(Math.PI);
         private readonly decimal E = Convert.ToDecimal(Math.E);
         private readonly string[] _reserved;
         private readonly CultureInfo _cultureInfo;
 
-        public CalcSemantic(CultureInfo cultureInfo = null)
+        public CalcSemantic(CultureInfo cultureInfo, Dictionary<string, CustomFunction> customFunctions)
         {
             _variables[nameof(PI)] = PI;
             _variables[nameof(E)] = E;
 
             _reserved = new[] { nameof(PI), nameof(E) }.Concat(ScannerConstants.SpecialCases(cultureInfo).Keys).ToArray();
             _cultureInfo = cultureInfo;
+            _customFunctions = customFunctions;
         }
 
         public decimal Solve(string expression)
         {
             _params.Clear();
             _stack.Clear();
+            _stackCustomFunctions.Clear();
 
-            var scanner = new Lexicon(expression, _cultureInfo);
+            var scanner = new Lexicon(expression, _cultureInfo, _customFunctions.Keys);
             var syntatic = new Syntactic();
             syntatic.Parse(scanner, this);
             return _stack.Peek();
@@ -44,12 +48,14 @@ namespace RMdev.Calculator
         {
             if (_reserved.Contains(name))
                 throw new ArgumentException(string.Format(Messages.ReservedWord, name));
+            if (_customFunctions.ContainsKey(name))
+                throw new ArgumentException(string.Format(Messages.ReservedWordForCustomFunction, name));
             _variables[name] = value;
         }
 
         public IEnumerable<string> RequiredVariables(string expression)
         {
-            Lexicon lexicon = new Lexicon(expression, _cultureInfo);
+            Lexicon lexicon = new Lexicon(expression, _cultureInfo, _customFunctions.Keys);
             var variables = new HashSet<string>();
 
             var token = lexicon.NextToken();
@@ -153,7 +159,10 @@ namespace RMdev.Calculator
                     Min();
                     break;
                 case 32:
-                    CustomFunction(token);
+                    NewCustomFunction(token);
+                    break;
+                case 33:
+                    EvalCustomFunction();
                     break;
             }
         }
@@ -360,15 +369,23 @@ namespace RMdev.Calculator
             _stack.Push(min);
         }
 
-        private void CustomFunction(Token token)
+        private void NewCustomFunction(Token token)
         {
+            _stackCustomFunctions.Push(token.Lexeme);
+        }
+
+        private void EvalCustomFunction()
+        {
+            var functionName = _stackCustomFunctions.Pop();
+            var customFunction = _customFunctions[functionName];
+
             var count = _params.Pop();
             var parameters = new decimal[count];
             for (int i = count-1; i >= 0; i--)
             {
-                parameters[i] = _params.Pop();
+                parameters[i] = _stack.Pop();
             }
-            var result = 0m; // TODO: Implementar CustomFunction
+            var result = customFunction(parameters);
             _stack.Push(result);
         }
 

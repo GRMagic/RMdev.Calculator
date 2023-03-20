@@ -113,5 +113,28 @@ namespace RMdev.Calculator.Tests
             // Assert
             Assert.Throws<SyntaticError>(act);
         }
+
+        [Trait("Calc", "Solve")]
+        [Fact(DisplayName = "Solve the easiest expression many times per second")]
+        public void ExpressionPerSecond_Solve_Fast()
+        {
+            // Arrange
+            var calc = new Calc();
+            var expression = "1";
+            var count = 0;
+            var seconds = 3;
+            var timeLimit = TimeSpan.FromSeconds(seconds);
+
+            // Act
+            var start = DateTime.UtcNow;
+            while(DateTime.UtcNow - start < timeLimit)
+            {
+                calc.Solve(expression);
+                count++;
+            }
+
+            // Assert
+            Assert.True(count/seconds > 10_000);
+        }
     }
 }

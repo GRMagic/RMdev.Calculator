@@ -123,6 +123,15 @@ namespace RMdev.Calculator.Tests
         [InlineData("Avg")]
         [InlineData("Root")]
         [InlineData("Abs")]
+        [InlineData("Min")]
+        [InlineData("Max")]
+        [InlineData("Sqrt")]
+        [InlineData("Floor")]
+        [InlineData("Ceiling")]
+        [InlineData("Sin")]
+        [InlineData("Cos")]
+        [InlineData("Tan")]
+        [InlineData("CustomFunction")]
         public void ReservedName_SetVariable_ThrowsException(string variableName)
         {
             // Arrange
@@ -130,6 +139,23 @@ namespace RMdev.Calculator.Tests
 
             // Act 
             Action act = () => calc.SetVariable(variableName ,0);
+
+            // Assert
+            Assert.Throws<ArgumentException>(act);
+        }
+
+        [Trait("Variables", "Names")]
+        [Theory(DisplayName = "Custom function reserves a name")]
+        [InlineData("CustomFunction")]
+        [InlineData("Pow3")]
+        public void CustomFunctionName_SetVariable_ThrowsException(string variableName)
+        {
+            // Arrange
+            var calc = new Calc();
+            calc.CustomFunctions["Pow3"] = args => args[0] * args[0] * args[0];
+
+            // Act 
+            Action act = () => calc.SetVariable(variableName, 0);
 
             // Assert
             Assert.Throws<ArgumentException>(act);

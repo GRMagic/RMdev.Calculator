@@ -378,21 +378,7 @@ namespace RMdev.Calculator.Compiler
 
         public static readonly string[] SPECIAL_CASES_KEYS =
         {
-            "Abs",
-            "Avg",
-            "Ceiling",
-            "Cos",
-            "CustomFunction",
-            "Floor",
-            "Max",
-            "Min",
-            "Root",
-            "Round",
-            "Sin",
-            "Sqrt",
-            "Sum",
-            "Tan",
-            "Truncate"
+            "Abs", "Avg", "Ceiling", "Cos", "CustomFunction", "Floor", "Max", "Min", "Root", "Round", "Sin", "Sqrt", "Sum", "Tan", "Truncate"
         };
 
         public static readonly int[] SPECIAL_CASES_VALUES =

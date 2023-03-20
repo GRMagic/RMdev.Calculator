@@ -9,9 +9,11 @@ namespace RMdev.Calculator
         private readonly CalcSemantic _semantic;
         private readonly CultureInfo _cultureInfo;
 
+        public readonly Dictionary<string, CustomFunction> CustomFunctions = new Dictionary<string, CustomFunction>();
+
         public Calc(CultureInfo cultureInfo = null)
         {
-            _semantic = new CalcSemantic(cultureInfo);
+            _semantic = new CalcSemantic(cultureInfo, CustomFunctions);
             _cultureInfo = cultureInfo;
         }
 
@@ -25,13 +27,13 @@ namespace RMdev.Calculator
 
         private void LexicalCheck(string expression)
         {
-            var lex = new Lexicon(expression, _cultureInfo);
+            var lex = new Lexicon(expression, _cultureInfo, CustomFunctions.Keys);
             while (lex.NextToken() != null) ;
         }
 
         private void SyntaxCheck(string expression)
         {
-            var lexicon = new Lexicon(expression, _cultureInfo);
+            var lexicon = new Lexicon(expression, _cultureInfo, CustomFunctions.Keys);
             var syntatic = new Syntactic();
             var semantic = new NopSemantic();
             syntatic.Parse(lexicon, semantic);
@@ -39,7 +41,7 @@ namespace RMdev.Calculator
 
         private void SemanticCheck(string expression)
         {
-            var lexicon = new Lexicon(expression, _cultureInfo);
+            var lexicon = new Lexicon(expression, _cultureInfo, CustomFunctions.Keys);
             var syntatic = new Syntactic();
             var semantic = new CheckingSemantic(_semantic.DefinedVariables().Keys);
             syntatic.Parse(lexicon, semantic);
@@ -51,4 +53,6 @@ namespace RMdev.Calculator
 
         public decimal Solve(string expression) => _semantic.Solve(expression);
     }
+
+    public delegate decimal CustomFunction(decimal[] parameters);
 }

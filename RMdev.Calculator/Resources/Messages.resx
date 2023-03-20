@@ -129,6 +129,10 @@
     <value>The word '{0}' is reserved.</value>
     <comment>{0} = Reserved word</comment>
   </data>
+  <data name="ReservedWordForCustomFunction" xml:space="preserve">
+    <value>The word '{0}' is reserved for a custom function.</value>
+    <comment>{0} = Reserved word</comment>
+  </data>
   <data name="RootNaN" xml:space="preserve">
     <value>There is no root {1} of {0}.</value>
     <comment>{0} = Value;  {1} = Root</comment>

@@ -79,7 +79,7 @@ CUSTOMFUNCTION = ID : "CustomFunction"
 <FUNC> ::= FLOOR "(" <EXP> ")" #29;
 <FUNC> ::= MAX "(" #3 <PN> ")" #30;
 <FUNC> ::= MIN "(" #3 <PN> ")" #31;
-<FUNC> ::= CUSTOMFUNCTION "(" #3 <PNOPTIONAL> ")" #32;
+<FUNC> ::= CUSTOMFUNCTION #32"(" #3 <PNOPTIONAL> ")" #33;
 
 <PN> ::= <PN> "," <EXP> #4;
 <PN> ::= <EXP> #4;

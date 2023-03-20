@@ -13,7 +13,7 @@ namespace RMdev.Calculator.Compiler
     sealed class Lexicon
     {
         private readonly Dictionary<string, int> _specialCases;
-
+        private readonly IEnumerable<string> _customFunctions;
         private int _position = 0;
         
         private string _input;
@@ -27,9 +27,10 @@ namespace RMdev.Calculator.Compiler
             }
         }
 
-        public Lexicon(string input, CultureInfo cultureInfo)
+        public Lexicon(string input, CultureInfo cultureInfo, IEnumerable<string> customFunctions)
         {
             Input = input;
+            _customFunctions = customFunctions;
             _specialCases = SpecialCases(cultureInfo);
         }
 
@@ -113,6 +114,11 @@ namespace RMdev.Calculator.Compiler
 
         public int LookupToken(int @base, string key)
         {
+            if (_customFunctions?.Contains(key) ?? false)
+                key = CUSTOM_FUNCTION;
+            else if (key == CUSTOM_FUNCTION)
+                return @base;
+
             if (_specialCases.TryGetValue(key, out var value)) return value;
             return @base;
         }

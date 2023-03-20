@@ -88,6 +88,15 @@ namespace RMdev.Calculator.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The word &apos;{0}&apos; is reserved for a custom function..
+        /// </summary>
+        internal static string ReservedWordForCustomFunction {
+            get {
+                return ResourceManager.GetString("ReservedWordForCustomFunction", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to There is no root {1} of {0}..
         /// </summary>
         internal static string RootNaN {

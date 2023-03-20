@@ -1,4 +1,6 @@
-﻿namespace RMdev.Calculator.Tests
+﻿using RMdev.Calculator.Compiler;
+
+namespace RMdev.Calculator.Tests
 {
     public class FunctionsTest
     {
@@ -333,6 +335,119 @@
 
             // Assert
             Assert.Equal(expected, result, 13);
+        }
+
+        [Trait("Functions", "CustomFunction")]
+        [Theory(DisplayName = "Custom Function Pow3")]
+        [InlineData("Pow3(2)", 8)]
+        [InlineData("Pow3(Sum(Pow3(2),Pow3(2)))", 4096)]
+        public void CustomFunctionName_SetVariable_ThrowsException(string expression, decimal expected)
+        {
+            // Arrange
+            var calc = new Calc();
+            calc.CustomFunctions["Pow3"] = args => args[0] * args[0] * args[0];
+
+            // Act
+            var result = calc.Solve(expression);
+
+            // Assert
+            Assert.Equal(expected, result, 13);
+        }
+
+        [Trait("Functions", "CustomFunction")]
+        [Theory(DisplayName = "Custom function Pow3")]
+        [InlineData("Pow3(2)", 8)]
+        [InlineData("Pow3(Sum(Pow3(2),Pow3(2)))", 4096)]
+        public void SimpleCustomFunction_Solve_Correctly(string expression, decimal expected)
+        {
+            // Arrange
+            var calc = new Calc();
+            calc.CustomFunctions["Pow3"] = args => args[0] * args[0] * args[0];
+
+            // Act
+            var result = calc.Solve(expression);
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
+
+        [Trait("Functions", "CustomFunction")]
+        [Theory(DisplayName = "Custom function fatorial")]
+        [InlineData("Fatorial(1)", 1)]
+        [InlineData("Fatorial(2)", 2)]
+        [InlineData("Fatorial(3)", 6)]
+        public void SimpleCustomFunctionStatic_Solve_Correctly(string expression, decimal expected)
+        {
+            // Arrange
+            var calc = new Calc();
+            calc.CustomFunctions[nameof(Fatorial)] = Fatorial;
+
+            // Act
+            var result = calc.Solve(expression);
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
+
+        [Trait("Functions", "CustomFunction")]
+        [Theory(DisplayName = "Custom function without params")]
+        [InlineData("Day()")]
+        public void CustomFunctionNoParams_Solve_Correctly(string expression)
+        {
+            // Arrange
+            var calc = new Calc();
+            decimal expected = 11;
+            calc.CustomFunctions["Day"] = args => expected;
+
+            // Act
+            var result = calc.Solve(expression);
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
+
+        [Trait("Functions", "CustomFunction")]
+        [Theory(DisplayName = "Custom function N params")]
+        [InlineData("Example(1,a,2,b,3,c)", 12)]
+        public void CustomFunctionNParams_Solve_Correctly(string expression, decimal expected)
+        {
+            // Arrange
+            var calc = new Calc();
+            calc.SetVariable("a", 1);
+            calc.SetVariable("b", 2);
+            calc.SetVariable("c", 3);
+            calc.CustomFunctions["Example"] = args => args.Sum();
+
+            // Act
+            var result = calc.Solve(expression);
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
+
+        [Trait("Functions", "CustomFunction")]
+        [Fact(DisplayName = "Custom function bypass checking")]
+        public void CustomFunction_Check_Bypass()
+        {
+            // Arrange
+            var expression = "Fatorial(1,2,3)";
+            var calc = new Calc();
+            calc.CustomFunctions["Fatorial"] = Fatorial;
+
+            // Act && Assert
+            calc.Check(expression, true);
+        }
+
+
+        private static decimal Fatorial(decimal[] x)
+        {
+            if (x.Length != 1) throw new SyntaticError("Fatorial must be a single parameter.");
+            var n = Convert.ToInt32(x[0]);
+            if (x[0] != n || n < 0) throw new SemanticError("Fatorial parameter must be a positive integer.");
+
+            decimal result = 1;
+            for(; n > 1; n--) result *= n;
+            return result;
         }
 
     }
