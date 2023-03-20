@@ -472,6 +472,23 @@ namespace RMdev.Calculator.Tests
             Assert.Equal(expected, result);
         }
 
+        [Trait("Functions", "CustomFunction")]
+        [Fact(DisplayName = "Custom function params order")]
+        public void CustomFunctionParamsOrder_Solve_Correctly()
+        {
+            // Arrange
+            string expression = "CustomFunction(100,5)";
+            decimal expected = 20;
+            var calc = new Calc();
+            calc.CustomFunctions["CustomFunction"] = args => args[0] / args[1];
+
+            // Act
+            var result = calc.Solve(expression);
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
+
         private static decimal Fatorial(decimal[] x)
         {
             if (x.Length != 1) throw new SyntaticError("Fatorial must be a single parameter.");
