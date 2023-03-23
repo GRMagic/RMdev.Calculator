@@ -88,7 +88,7 @@ As funções devem seguir o delegate
 delegate decimal CustomFunction(decimal[] parameters)
 ```
 
-Os array de parâmetros nunca será nulo, mas possivelmente será vazio.
+O array de parâmetros nunca será nulo, mas possivelmente será vazio.
 
 Exemplo de função:
 ```csharp
@@ -101,14 +101,14 @@ Funções personalizadas podem sobrescrever funções nativas, mas funções per
 
 ## Comentários e caracteres ignorados
 
-Espaços em branco, tabulações e quebras de linha serão ignorados, o que permite resolver expressões com mais de uma linha.
+Espaços em branco, tabulações e quebras de linha serão ignorados, o que permite escrever expressões com mais de uma linha.
 
 Também é possível criar comentários de uma linha usando **//** ou comentários de bloco usando **/*** e ***/** para delimitar o início e o fim do bloco.
 
 ## Exemplo
 
 ```csharp
-var calc = new Calc();
+ICalc calc = new Calc();
 calc.SetVariable("a", 10);
 var result = calc.Solve("a + 2"); // result = 12
 ```

@@ -8,5 +8,6 @@ namespace RMdev.Calculator
         decimal Solve(string expression);
         IEnumerable<string> RequiredVariables(string expression);
         void SetVariable(string name, decimal value);
+        Dictionary<string, CustomFunction> CustomFunctions { get; }
     }
 }

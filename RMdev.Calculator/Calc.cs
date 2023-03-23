@@ -11,6 +11,8 @@ namespace RMdev.Calculator
 
         public readonly Dictionary<string, CustomFunction> CustomFunctions = new Dictionary<string, CustomFunction>();
 
+        Dictionary<string, CustomFunction> ICalc.CustomFunctions => CustomFunctions;
+
         public Calc(CultureInfo cultureInfo = null)
         {
             _semantic = new CalcSemantic(cultureInfo, CustomFunctions);

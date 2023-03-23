@@ -4,7 +4,7 @@ using RMdev.Calculator.Compiler;
 using System.Diagnostics;
 using static System.Console;
 
-var calc = new Calc(Thread.CurrentThread.CurrentCulture);
+ICalc calc = new Calc(Thread.CurrentThread.CurrentCulture);
 
 calc.CustomFunctions["ElevarAoCubo"] = args => args[0] * args[0] * args[0];
 
