@@ -1,66 +1,67 @@
 # rmdev.Calculator
 
-Biblioteca para calcular expressões matemáticas respeitando a prioridade dos operadores com suporte a variáveis, e funções personalizadas.
+Library to calculate mathematical expressions respecting the priority of operators with support for variables, and custom functions.
 
-Tanto no nome das variáveis como no nome das funções maiúsculas e minusculas fazem diferença. (Case-Sensitive)
+The library is case sensitive for both function and variable names.
 
-## Números
-O separador de decimal deve ser o ponto, independente de qual linguagem está sendo utilizada, não deve ser utilizado separador de milhar.
 
-## Constantes
+## Numbers
+The decimal separator must be the point, regardless of which language is being used, the thousand separator must not be used.
+
+## Consts
  - **PI** = 3.14159265358979
  - **E** = 2.71828182845904
 
-## Variáveis
+## Variables
 
-Variáveis podem ser declaradas usando **letras**, **números**, **$** e **underline**, mas não podem começar com números nem conter acentuação.
+Variables can be declared using **letters**, **numbers**, **$**, and **underscore**, but they cannot start with numbers or contain accents.
 
-## Operadores
+## Operators
 
-- **\+** Adição
-- **\-** Subtração
-- **\*** Multiplicação
-- **/** Divisão
-- **%** Resto da divisão
-- **^** Potenciação
-- **(** e **)** Priorização
+- **\+** Addition
+- **\-** Subtraction
+- **\*** Multiplication
+- **/** Division
+- **%** Rest of Division
+- **^** Power
+- **(** e **)** Prioritization
 
-Primeiro será calculado o que está entre parênteses,
+First it will calculate what is in parentheses,
 
-seguido por potência,
+followed by power,
 
-depois multiplicações, divisões, e restos
+then multiplications, divisions, and remainders
 
-e finalmente somas e subtrações.
+and finally additions and subtractions.
 
-Em caso de operações estarem no mesmo nível de prioridade, elas serão executadas da esquerda para a direita.
+In case operations are at the same priority level, they will be executed from left to right.
 
 
-## Funções
+## Functions
 
-- **Root(radicando, indice)** Enésima raiz de um número
-- **Sqrt(radicando)** Raiz quadrada de um número
-- **Abs(V)** Valor absoluto de V
-- **Avg(V1, V2, ..., Vn )** Média dos valores
-- **Sum(V1, V2, ..., Vn )** Soma dos valores
-- **Round(V)** Arredonda um número 
-- **Round(V, n)** Arredonda um número para até n casas decimais
-- **Truncate(V)** Trunca um número
-- **Ceiling(V)** Arredonda um número para cima
-- **Floor(V)** Arredonda um número para baixo
-- **Sin(V)** Seno de V (em graus)
-- **Cos(V)** Coseno de V (em graus)
-- **Tan(V)** Tangente de V (em graus)
-- **Max(V1, V2, ..., Vn )** Maior entre os valores informados
-- **Min(V1, V2, ..., Vn )** Menor entre os valores informados
+- **Root(radicand, index)** Nth root of a number
+- **Sqrt(radicand)** Square root of a number
+- **Abs(V)** Absolute value of V
+- **Avg(V1, V2, ..., Vn )** Average of values
+- **Sum(V1, V2, ..., Vn )** Sum of values
+- **Round(V)** Rounds a number
+- **Round(V, n)** Rounds a number to n decimal places
+- **Truncate(V)** Truncates a number
+- **Ceiling(V)** Rounds a number up
+- **Floor(V)** Rounds a number down
+- **Sin(V)** Sin of V (in degrees)
+- **Cos(V)** Cosine of V (in degrees)
+- **Tan(V)** Tangent of V (in degrees)
+- **Max(V1, V2, ..., Vn )** Greater between the informed values
+- **Min(V1, V2, ..., Vn )** Lowest between the values entered
 
-Os parâmetros devem ser separados por **vírgula**.
+Parameters must be separated by a **comma**.
 
-## Funções Internacionalizadas
+## Internationalized Functions
 
-As mensagens de erro serão mostradas de acordo com a cultura da thread atual, mas para usar funções com seus nomes traduzidos é preciso informar a cultura ao criar um novo objeto *Calc*.
+Error messages will be displayed according to the current thread's culture, but to use functions with their translated names, you must inform the culture when creating a new *Calc* object.
 
-### Português
+### Português (pt)
 
 - **Root** -> Raiz
 - **Sqrt** -> RaizQuadrada
@@ -77,38 +78,54 @@ As mensagens de erro serão mostradas de acordo com a cultura da thread atual, m
 - **Max** -> Max
 - **Min** -> Min
 
-*Para adicionar suporte a novos idiomas basta adicionar os resources correspondentes na pasta Resources.*
+*To add support for new languages just add the corresponding resources in the Resources folder.*
 
-## Funções Personalizadas
+## Custom Functions
 
-Funções podem ser declaradas usando **letras**, **números**, **$** e **underline**, mas não podem começar com números nem conter acentuação.
+Functions can be declared using **letters**, **numbers**, **$**, and **underscore**, but cannot start with numbers or contain accents.
 
-As funções devem seguir o delegate 
+Functions must follow the delegate
 ```csharp
 delegate decimal CustomFunction(decimal[] parameters)
 ```
 
-O array de parâmetros nunca será nulo, mas possivelmente será vazio.
+The parameter array will never be null, but it can be empty.
 
-Exemplo de função:
+function example:
 ```csharp
-decimal Somar(decimal[] parameters){
+decimal SumAll(decimal[] parameters){
     return parameters.Sum();
 }
 ```
 
-Funções personalizadas podem sobrescrever funções nativas, mas funções personalizadas não são verificadas semanticamente durante as análises feitas pelo método *Calc.Check()*. Exeções lançadas dentro de uma função personalizada só irão estourar quando o método *Solve* tentar resolver uma expressão com essa função.
+Custom functions can override native functions, but custom functions are not semantically checked during checks done by the *Calc.Check()* method. Exceptions thrown inside a custom function will only be thrown when the *Solve* method tries to solve an expression with that function.
 
-## Comentários e caracteres ignorados
+## Comments and ignored characters
 
-Espaços em branco, tabulações e quebras de linha serão ignorados, o que permite escrever expressões com mais de uma linha.
+White spaces, tabs and line breaks will be ignored, which allows you to write expressions with more than one line.
 
-Também é possível criar comentários de uma linha usando **//** ou comentários de bloco usando **/*** e ***/** para delimitar o início e o fim do bloco.
+You can also create single line comments using **//** or block comments using **/*** and ***/** to delimit the start and end of the block.
 
-## Exemplo
+## Examples
+
+```csharp
+ICalc calc = new Calc();
+var result = calc.Solve("1 + 2"); // result = 3
+```
 
 ```csharp
 ICalc calc = new Calc();
 calc.SetVariable("a", 10);
 var result = calc.Solve("a + 2"); // result = 12
+```
+
+```csharp
+ICalc calc = new Calc();
+var result = calc.Solve("Sum(1, 2, 3)"); // result = 6
+```
+
+```csharp
+ICalc calc = new Calc();
+calc.CustomFunctions["SumAll"] = args => args.Sum();
+var result = calc.Solve("SumAll(1, 2, 3)"); // result = 6
 ```
