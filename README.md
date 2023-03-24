@@ -1,10 +1,11 @@
 # rmdev.Calculator
 
+[![NuGet](https://img.shields.io/nuget/v/rmdev.calculator.svg)](https://nuget.org/packages/rmdev.calculator)
+[![Nuget](https://img.shields.io/nuget/dt/rmdev.calculator.svg)](https://nuget.org/packages/rmdev.calculator) 
 
 Library to evaluate mathematical expressions respecting the priority of operators with support for variables, and custom functions.
 
 The library is case sensitive for both function and variable names.
-
 
 ## Numbers
 The decimal separator must be the point, regardless of which language is being used, the thousand separator must not be used.
