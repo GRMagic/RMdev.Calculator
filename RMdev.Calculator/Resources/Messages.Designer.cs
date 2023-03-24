@@ -70,6 +70,15 @@ namespace RMdev.Calculator.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Solve an expressions before calling Result()..
+        /// </summary>
+        internal static string NeedSolvedExpression {
+            get {
+                return ResourceManager.GetString("NeedSolvedExpression", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to There is no {0} to the power of {1}..
         /// </summary>
         internal static string PowNaN {

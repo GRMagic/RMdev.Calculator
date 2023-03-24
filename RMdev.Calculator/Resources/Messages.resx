@@ -121,6 +121,9 @@
     <value>Error Identifying {0}.</value>
     <comment>{0} = Token</comment>
   </data>
+  <data name="NeedSolvedExpression" xml:space="preserve">
+    <value>Solve an expressions before calling Result().</value>
+  </data>
   <data name="PowNaN" xml:space="preserve">
     <value>There is no {0} to the power of {1}.</value>
     <comment>{0} = Value;  {1} = Pow</comment>

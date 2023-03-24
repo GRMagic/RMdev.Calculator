@@ -1,6 +1,7 @@
 # rmdev.Calculator
 
-Library to calculate mathematical expressions respecting the priority of operators with support for variables, and custom functions.
+
+Library to evaluate mathematical expressions respecting the priority of operators with support for variables, and custom functions.
 
 The library is case sensitive for both function and variable names.
 

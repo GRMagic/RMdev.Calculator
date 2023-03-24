@@ -5,16 +5,22 @@
     <Nullable>disable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>rmdev Expressions Calculator</Title>
-    <Version>1.0.1</Version>
+    <Version>1.0.3</Version>
     <Description>Calculator to check and evaluate mathematical expressions</Description>
     <RepositoryUrl>https://github.com/GRMagic/RMdev.Calculator</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Authors>Gustavo.rm90</Authors>
-    <PackageTags>Expression;Calculator;Formula;Calculadora</PackageTags>
+    <PackageTags>Expression;Calculator;Evaluator;Formula;Calculadora</PackageTags>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
+	
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+	
   <ItemGroup>
     <Compile Update="Resources\Functions.Designer.cs">
       <DesignTime>True</DesignTime>

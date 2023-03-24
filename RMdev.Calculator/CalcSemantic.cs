@@ -388,7 +388,11 @@ namespace RMdev.Calculator
             _stack.Push(result);
         }
 
-        public decimal Result() => _stack.Peek();
-
+        public decimal Result()
+        {
+            if (_stack.Count == 0)
+                throw new Exception("Solve an expressions before calling Result().");
+            return _stack.Peek();
+        }
     }
 }

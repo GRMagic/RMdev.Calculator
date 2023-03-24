@@ -5,7 +5,6 @@ using System.Diagnostics;
 using static System.Console;
 
 ICalc calc = new Calc(Thread.CurrentThread.CurrentCulture);
-
 calc.CustomFunctions["ElevarAoCubo"] = args => args[0] * args[0] * args[0];
 
 var stopWatch = Stopwatch.StartNew();

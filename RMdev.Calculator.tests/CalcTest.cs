@@ -136,5 +136,34 @@ namespace RMdev.Calculator.Tests
             // Assert
             Assert.True(count / seconds > 10_000);
         }
+
+        [Trait("Calc", "Result")]
+        [Fact(DisplayName = "Get last expression result")]
+        public void EvaluatedExpression_Result_LastResult()
+        {
+            // Arrange
+            var calc = new Calc();
+            var expected = calc.Solve("1+1");
+
+            // Act
+            var result = calc.Result();
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
+
+        [Trait("Calc", "Result")]
+        [Fact(DisplayName = "Get result without previous solve")]
+        public void NotEvaluatedExpression_Result_ThrowsException()
+        {
+            // Arrange
+            var calc = new Calc();
+
+            // Act
+            Action act = () => calc.Result();
+
+            // Assert
+            Assert.Throws<Exception>(act);
+        }
     }
 }
