@@ -5,7 +5,7 @@
     <Nullable>disable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>rmdev Expressions Calculator</Title>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Description>Calculator to check and evaluate mathematical expressions</Description>
     <RepositoryUrl>https://github.com/GRMagic/RMdev.Calculator</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
